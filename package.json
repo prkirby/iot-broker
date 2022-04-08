@@ -1,0 +1,22 @@
+{
+  "name": "iot-broker",
+  "version": "1.0.0",
+  "description": "pkirby's iot broker",
+  "main": "index.ts",
+  "author": "Paul Kirby <paulrdkirby@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node server.ts"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "aedes": "^0.46.3",
+    "aedes-server-factory": "^0.2.1",
+    "ts-node": "^10.7.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
