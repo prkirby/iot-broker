@@ -1,7 +1,8 @@
+import 'dotenv/config'
 import Aedes from 'aedes'
 import { createServer } from 'aedes-server-factory'
 
-const port = 1883
+const port = parseInt(process.env.PORT || '1883')
 
 const aedes = Aedes({
   id: 'PKIRBY_BROKER',
